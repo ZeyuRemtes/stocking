@@ -10,6 +10,14 @@ import (
 
 func AuthMiddleware() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
+
+		// 默认全通过
+		ctx.Set("user", model.User{
+			Name:      "admin007",
+			Telephone: "110",
+		})
+		ctx.Next()
+
 		//获取authorization header
 		tokenString := ctx.GetHeader("Authorization")
 		//vcalidate token formate
