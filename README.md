@@ -1,7 +1,7 @@
-# Gin+Vue 前后端分离项目实战
+# Gin+Vue 前后端分离项目实战-- 统计袜子成本项目
 
 ## 目标
-本项目主要用于练习Golang的web开发
+本项目主要用于练习Golang的web开发，应用场景为袜长成本统计
 
 
 ## 开始
@@ -36,8 +36,8 @@
 ### 安装
 项目开发使用Go版本为1.13.7，建议使用>=1.13.7版本运行软件
 ```
-$ git clone git@github.com:xietongMe/ginEssential.git
-$ cd ginEssential
+$ git clone git@github.com/ZeyuRemtes/stocking.git
+$ cd stockingCst
 ```
 修改config/application.yaml中的配置为你本地的数据库配置
 
